@@ -3,12 +3,11 @@
 Code to solve the New York Times [[https://www.nytimes.com/puzzles/letter-boxed][Letter Boxed]] puzzles
 
 #+begin_example
-python letterbox.py
-Input letters grouped by side and each side spaced by spaces>
-Got zero length string using 'enr tbl ioa sxp'
+$python letterbox.py
+Input letters grouped by side and each side spaced by spaces> enr lbt iao psx
 
  Solving letterboxed problem:
-[{'e', 'n', 'r'}, {'l', 'b', 't'}, {'i', 'a', 'o'}, {'p', 's', 'x'}]
+[{'e', 'n', 'r'}, {'l', 't', 'b'}, {'i', 'o', 'a'}, {'x', 's', 'p'}]
 
 Some two word solutions
 ['brixton', 'naples']
@@ -19,4 +18,13 @@ Some two word solutions
 ['proxies', 'sibilant']
 ['probit', 'transaxle']
 ['plese', 'exorbitant']
+['praxiteles', 'snobs']
+['praxiteles', 'sabon']
+['bonaparte', 'exiles']
+['botanist', 'triplex']
+['bastrop', 'poloniex']
+['lipase', 'exorbitant']
+...
+...
+...
 #+end_example
